@@ -1,0 +1,33 @@
+.body {
+    display: block;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background: #222;
+    font-family: 'Varela Round', sans-serif;
+    background: #0000 center/cover url("/weather-app/weather.jpg") no-repeat;
+    margin-top: 0;
+}
+
+.card {
+    background: #eaeaea;
+    padding: 2em;
+    border-radius: 30px;
+    width: 100%;
+    max-width: 420px;
+    margin-top: 18em; 
+    margin-left: 45em;
+    height: 410px;
+    font-family: 'Varela Round', sans-serif;
+    opacity: 0.9;
+
+}
+
+.weather.loading {
+    visibility: hidden;
+}
+.weather.loading:after {
+    visibility: visible;
+    content: "Loading...";
+}
